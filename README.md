@@ -15,9 +15,14 @@ A coordenação de cursos é uma relação, onde cada curso é coordenado por um
 A implementação desse Sistema de Gestão Acadêmica proporcionará à universidade um controle mais efetivo sobre matrículas, frequências, desempenho acadêmico e coordenação de cursos. Essa solução abrangente visa aprimorar a experiência acadêmica de estudantes, professores e administradores, contribuindo para o sucesso educacional e administrativo da instituição.
 >
 ## 📊 Modelagem Conceitual
-# <img/
+![Modelagem de Banco de Dados Completa](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/c78bc7e1-2eee-46e3-a12f-636bc43fb9f4)
 
-## ⚙️ Código 
-Abaixo estão as tags que utilizamos no código, organizadas por categorias. Essas tags são parte do código HTML e CSS para criar a página PawsSafety. <br /><br />
-# Modelagem-de-Banco-de-Dados-Completa
-Trabalho final do curso de Desenvolvimento de Software Multiplataforma da FATEC Franca. Este projeto visa a demonstração abrangente do conhecimento adquirido ao longo do semestre na disciplina de Modelagem de Banco de Dados
+## 🔢 Modelagem Lógica
+
+## ⚙️ Modelagem Física
+
+## 💻 Dados
+
+## CRUD
+
+## Relatórios
