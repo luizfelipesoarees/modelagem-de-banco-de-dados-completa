@@ -116,8 +116,8 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Email: ![insert_tabela_email](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/c654cfb6-6d2e-4087-9b4f-f17074d16fe9)
 > 
 ![tabela_email](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/bd2c3e07-3894-42fd-9f70-cdfe6aa38322)
-> EstudanteCurso:
 > Curso:
+> EstudanteCurso:
 > Email_Cord:
 > Disciplina:
 > EstudanteDisciplina:
