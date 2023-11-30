@@ -137,8 +137,11 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Disciplinas_leciona: ![tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/420743b4-506c-4ffa-ad19-ae00bdf462e4)
 >
 > ![insert_tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/075cef5b-c153-49e0-a9cf-c0a428c1a940)
-> Nota:
+> Nota: ![insert_tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/33e84a31-cf94-4385-9330-f35a702ddcef)
+> 
+![tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1fc29512-ca94-4e4a-8144-04d329c071f8)
 > NotaDisciplina:
+
 ## CRUD
 
 ## Relatórios
