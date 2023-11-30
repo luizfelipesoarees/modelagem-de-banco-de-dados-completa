@@ -145,5 +145,9 @@ Aqui segue a iserção de dados de todas as tabelas:
 ![tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/22e61714-d35e-4eaf-8cd0-b4ef86496fa4)
 
 ## CRUD
+> Inserção de dados:
+> Leitura de Dados:
+> Deleção:
+> Alteração de Dados:
 
 ## Relatórios
