@@ -21,6 +21,91 @@ A implementação desse Sistema de Gestão Acadêmica proporcionará à universi
 ![Modelagem Lógica](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/2bb4894c-f724-4ee4-8f98-42241c63d215)
 
 ## ⚙️ Modelagem Física
+Foi utilizado o seguinte código para a implementação desse cenário no SQL Server: 
+> CREATE table Estudante ( <br />
+  	RA INT PRIMARY Key, <br />
+  	Nome VARCHAR(60), <br />
+    Data_nasc DATE, <br />
+  	Idade INT, <br />
+  	Endereco VARCHAR(60), <br />
+  	Rua VARCHAR(60), <br />
+  	N INT, <br />
+  	Bairro VARCHAR(60), <br />
+  	Email VARCHAR(60), <br />
+  ); <br /><br />
+  
+ > CREATE TABLE Email ( <br />
+    id INT PRIMARY KEY, <br />
+    Email VARCHAR(60), <br />
+    estudante_ra INT, <br />
+    FOREIGN KEY (estudante_ra) REFERENCES Estudante(RA) <br />
+); <br /><br />
+  
+ > CREATE table Curso ( <br />
+  	id INT PRIMARY Key, <br />
+  	Nome VARCHAR(60), <br />
+    Coordenacao VARCHAR(60), <br />
+  	Nome_cord VARCHAR(60), <br />
+  	Email_cord VARCHAR(60), <br />
+  ); <br /><br />
+  
+  > CREATE TABLE EstudanteCurso (<br />
+    estudante_ra INT, <br />
+    curso_id INT, <br />
+    PRIMARY KEY (estudante_ra, curso_id), <br />
+    FOREIGN KEY (estudante_ra) REFERENCES Estudante(RA), <br />
+    FOREIGN KEY (curso_id) REFERENCES Curso(id) <br />
+); <br /><br />
+
+> CREATE TABLE Email_Cord ( <br />
+    id INT PRIMARY KEY, <br />
+    Email VARCHAR(60), <br />
+    curso_id INT, <br />
+    FOREIGN KEY (curso_id) REFERENCES Curso(id) <br />
+); <br /><br />
+  
+ > CREATE table Disciplina ( <br />
+  	id INT PRIMARY Key, <br />
+  	Nome VARCHAR(60), <br />
+    Aulas_semanais INT, <br />
+  	Carga_horaria INT, <br />
+  ); <br /><br />
+  
+  > CREATE TABLE EstudanteDisciplina ( <br />
+    estudante_ra INT, <br />
+    disciplina_id INT, <br />
+    PRIMARY KEY (estudante_ra, disciplina_id), <br />
+    FOREIGN KEY (estudante_ra) REFERENCES Estudante(RA), <br />
+    FOREIGN KEY (disciplina_id) REFERENCES Disciplina(id) <br />
+); <br /><br />
+
+> CREATE TABLE NotaDisciplina ( <br />
+    nota_id INT, <br />
+    disciplina_id INT, <br />
+    PRIMARY KEY (nota_id, disciplina_id), <br />
+    FOREIGN KEY (nota_id) REFERENCES Nota(id), <br />
+    FOREIGN KEY (disciplina_id) REFERENCES Disciplina(id) <br />
+); <br /><br />
+
+> CREATE table Professor ( <br />
+  	id INT PRIMARY Key, <br />
+  	Nome VARCHAR(60), <br />
+    data_nasc DATE, <br />
+  	Disciplinas_lecionadas VARCHAR(60), <br />
+  ); <br /><br />
+  
+  > CREATE TABLE Disciplinas_leciona ( <br />
+    id INT PRIMARY KEY, <br />
+    Disciplinas VARCHAR(60), <br />
+    professor_id INT, <br />
+    FOREIGN KEY (professor_id) REFERENCES Professor(id) <br />
+); <br /><br />
+
+  > CREATE table Nota ( <br />
+  	id INT PRIMARY Key, <br />
+  	Data_avaliacao DATE, <br />
+    Valor_nota INT, <br />
+  );
 
 ## 💻 Dados
 
