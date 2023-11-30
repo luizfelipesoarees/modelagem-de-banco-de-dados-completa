@@ -140,7 +140,9 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Nota: ![insert_tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/33e84a31-cf94-4385-9330-f35a702ddcef)
 > 
 ![tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1fc29512-ca94-4e4a-8144-04d329c071f8)
-> NotaDisciplina:
+> NotaDisciplina: ![insert_tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9a8b203a-e5aa-4901-a072-99faea8ccb45)
+> 
+![tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/22e61714-d35e-4eaf-8cd0-b4ef86496fa4)
 
 ## CRUD
 
