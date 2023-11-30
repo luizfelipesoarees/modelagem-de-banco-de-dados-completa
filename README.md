@@ -134,7 +134,9 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Professor: ![insert_tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/3c11d37c-266d-4477-b105-27ebe3b4e2de)
 > 
 ![tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6136995e-14b3-41c8-b9ab-3cd8a8d64b30)
-> Disciplinas_leciona:
+> Disciplinas_leciona: ![tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/420743b4-506c-4ffa-ad19-ae00bdf462e4)
+> 
+![insert_tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/075cef5b-c153-49e0-a9cf-c0a428c1a940)
 > Nota:
 > NotaDisciplina:
 ## CRUD
