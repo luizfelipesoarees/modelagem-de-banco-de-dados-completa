@@ -111,6 +111,7 @@ Foi utilizado o seguinte código para a implementação desse cenário no SQL Se
 Aqui segue a iserção de dados de todas as tabelas:
 > Estudante:
 ![insert_tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/cc7cdeb8-68b9-4e18-889e-60b642cefa05)
+> 
 ![tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/8f7bf0a6-57db-44d5-9409-a55d5978804b)
 > Email:
 > EstudanteCurso:
