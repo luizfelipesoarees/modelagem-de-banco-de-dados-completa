@@ -10,7 +10,7 @@ Cada curso é singularmente identificado por um nome, e a coordenação é repre
 Professores têm atributos simples, como nome e data de nascimento, e a disciplina lecionada é multivalorada, indicando que um professor pode ensinar várias disciplinas. O ID é a chave exclusiva de cada professor. <br /><br />
 Disciplinas têm atributos simples, como nome da disciplina e aulas semanais. A carga horária é derivada do número de aulas, e um ID exclusivo identifica cada disciplina. <br /><br />
 Notas são caracterizadas por atributos simples, como data da avaliação e valor da nota. O ID atua como chave exclusiva para cada nota. <br /><br />
-Os relacionamentos são fundamentais neste cenário acadêmico. Estudantes são matriculados em cursos, e professores ministram disciplinas. A relação entre estudantes e disciplinas reflete o fato de que vários estudantes frequentam várias disciplinas e vice-versa. A matrícula de estudantes em disciplinas é modelada como uma relação M:N. <br /><br />
+Os relacionamentos são fundamentais neste cenário acadêmico. Estudantes são matriculados em cursos, e professores ministram disciplinas. A relação entre estudantes e disciplinas reflete o fato de que vários estudantes frequentam várias disciplinas e vice-versa. <br /><br />
 A coordenação de cursos é uma relação, onde cada curso é coordenado por um único professor, e reciprocamente, um professor coordena no máximo um curso. A atribuição de notas segue uma relação, onde cada nota é atribuída por um único professor, que pode atribuir várias notas. A avaliação é uma relação, indicando que uma disciplina está associada a várias notas por meio de avaliações, e várias notas estão associadas a várias disciplinas. <br /><br />
 A implementação desse Sistema de Gestão Acadêmica proporcionará à universidade um controle mais efetivo sobre matrículas, frequências, desempenho acadêmico e coordenação de cursos. Essa solução abrangente visa aprimorar a experiência acadêmica de estudantes, professores e administradores, contribuindo para o sucesso educacional e administrativo da instituição.
 >
@@ -112,42 +112,52 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Estudante:
 ![insert_tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/cc7cdeb8-68b9-4e18-889e-60b642cefa05)
 > 
-![tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/8f7bf0a6-57db-44d5-9409-a55d5978804b)
+![tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/8f7bf0a6-57db-44d5-9409-a55d5978804b) <br /><br />
 > Email: ![insert_tabela_email](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/c654cfb6-6d2e-4087-9b4f-f17074d16fe9)
 > 
-![tabela_email](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/bd2c3e07-3894-42fd-9f70-cdfe6aa38322)
+![tabela_email](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/bd2c3e07-3894-42fd-9f70-cdfe6aa38322) <br /><br />
 > Curso: ![insert_tabela_curso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/0132a350-5ab2-4733-9808-ee6eca84943c)
 > 
-![tabela_curso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9d2d432d-8f9e-4663-b68e-06ffc33ce9a0)
+![tabela_curso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9d2d432d-8f9e-4663-b68e-06ffc33ce9a0) <br /><br />
 > EstudanteCurso:![insert_tabela_estudantecurso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9ab87aa9-96c8-465e-b13c-8d473b347095)
 >
-![_tabela_estudantecurso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/468f5cc2-2891-4a8f-90e0-79e18a96485d)
+![_tabela_estudantecurso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/468f5cc2-2891-4a8f-90e0-79e18a96485d) <br /><br />
 > Disciplina: ![insert_tabela_disciplina](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/71f36538-6dd2-48ce-aa9c-0afed7104c21)
 > 
-![tabela_disciplina](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/ef0ef93d-3488-435a-bd56-023c92812b1f)
+![tabela_disciplina](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/ef0ef93d-3488-435a-bd56-023c92812b1f) <br /><br />
 > EstudanteDisciplina: ![insert_tabela_estudante_disc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1ba2dfe2-e4d4-447c-82ec-b1d7c867376b)
 > 
-![tabela_estudante_disc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/7b8c580d-21d2-47bf-b91e-99eeb6316073)
+![tabela_estudante_disc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/7b8c580d-21d2-47bf-b91e-99eeb6316073) <br /><br />
 > Email_Cord: ![insert_tabela_email_c](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/d736d065-8f56-4074-9c85-1518d01b697a)
 > 
-![tabela_email_c](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/89c5d6cd-72d1-4182-a27e-5a88dc4e2067)
+![tabela_email_c](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/89c5d6cd-72d1-4182-a27e-5a88dc4e2067) <br /><br />
 > Professor: ![insert_tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/3c11d37c-266d-4477-b105-27ebe3b4e2de)
 > 
-![tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6136995e-14b3-41c8-b9ab-3cd8a8d64b30)
+![tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6136995e-14b3-41c8-b9ab-3cd8a8d64b30) <br /><br />
 > Disciplinas_leciona: ![tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/420743b4-506c-4ffa-ad19-ae00bdf462e4)
 >
-> ![insert_tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/075cef5b-c153-49e0-a9cf-c0a428c1a940)
+> ![insert_tabela_dis_l](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/075cef5b-c153-49e0-a9cf-c0a428c1a940) <br /><br />
 > Nota: ![insert_tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/33e84a31-cf94-4385-9330-f35a702ddcef)
 > 
-![tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1fc29512-ca94-4e4a-8144-04d329c071f8)
+![tabela_nota](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1fc29512-ca94-4e4a-8144-04d329c071f8) <br /><br />
 > NotaDisciplina: ![insert_tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9a8b203a-e5aa-4901-a072-99faea8ccb45)
 > 
 ![tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/22e61714-d35e-4eaf-8cd0-b4ef86496fa4)
 
 ## 💾 CRUD
-> Inserção de dados: ![inserção](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/20d84825-7579-406a-bb14-6f145bc34919)
-> Leitura de Dados: ![leitura](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/110e5624-9ccc-4219-bdfb-8153f87dbc79)
-> Alteração de Dados: ![atualização](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6303491a-84c4-4c38-bbcd-1fd498c70e75)
+> Inserção de dados: ![inserção](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/20d84825-7579-406a-bb14-6f145bc34919) <br /><br />
+> Leitura de Dados: ![leitura](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/110e5624-9ccc-4219-bdfb-8153f87dbc79) <br /><br />
+> Alteração de Dados: ![atualização](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6303491a-84c4-4c38-bbcd-1fd498c70e75) <br /><br />
 > Deleção: ![deleção](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/f17075d4-4c6a-4870-8876-fef3db2f6dbe)
 
 ## 📋 Relatórios
+> 1. <br /> ![Seleção Simples](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/cb509871-5a80-4c14-bbf5-eeb350437c9b) <br /><br />
+> 2. <br /> ![Filtro por Condição](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/ae22ad50-ce42-4ee0-9482-2e5cab286691) <br /><br />
+> 3. <br /> ![Ordenação Crescente](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/891dc14d-a572-4098-ac34-c8d7a5d36504) <br /><br />
+> 4. <br /> ![ordenação descrescente](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/7243a946-8281-43fe-9cfd-7b007e6d98dc) <br /><br />
+> 5. <br /> ![Seleção com Join de Duas Tabelas](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/552f768a-71fa-4d70-b14b-e966f742f968) <br /><br />
+> 6. <br /> ![Filtro com Join e Ordenação](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/1a628590-b8c7-475f-ad6e-7f41c3a6d851) <br /><br />
+> 7. <br /> ![Seleção com Agregação](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/2630aeca-87c3-43d8-9996-e64814286d46) <br /><br />
+> 8. <br /> ![Filtro com Agregação e Ordenação](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/c025baae-7f51-408b-a5d7-ac6b4142a460) <br /><br />
+> 9. <br /> ![Seleção com Subconsulta](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/7aa67b89-2446-4429-94a2-a168925f18ba) <br /><br />
+> 10. <br /> ![Filtro com Junção Múltipla](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/336a1968-d671-4e66-a13c-f6e19835d55f)
