@@ -131,7 +131,9 @@ Aqui segue a iserção de dados de todas as tabelas:
 > Email_Cord: ![insert_tabela_email_c](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/d736d065-8f56-4074-9c85-1518d01b697a)
 > 
 ![tabela_email_c](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/89c5d6cd-72d1-4182-a27e-5a88dc4e2067)
-> Professor:
+> Professor: ![insert_tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/3c11d37c-266d-4477-b105-27ebe3b4e2de)
+> 
+![tabela_professor](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6136995e-14b3-41c8-b9ab-3cd8a8d64b30)
 > Disciplinas_leciona:
 > Nota:
 > NotaDisciplina:
