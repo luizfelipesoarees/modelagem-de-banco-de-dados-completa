@@ -15,7 +15,7 @@ A coordenação de cursos é uma relação, onde cada curso é coordenado por um
 A implementação desse Sistema de Gestão Acadêmica proporcionará à universidade um controle mais efetivo sobre matrículas, frequências, desempenho acadêmico e coordenação de cursos. Essa solução abrangente visa aprimorar a experiência acadêmica de estudantes, professores e administradores, contribuindo para o sucesso educacional e administrativo da instituição.
 >
 ## 📊 Modelagem Conceitual
-![Modelagem de Banco de Dados Completa](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/c78bc7e1-2eee-46e3-a12f-636bc43fb9f4)
+![Modelagem de Banco de Dados Completa](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/bdca5f3b-d7f6-404f-bd6b-17817c678c04)
 
 ## 🔢 Modelagem Lógica
 
