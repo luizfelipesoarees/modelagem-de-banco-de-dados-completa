@@ -18,6 +18,7 @@ A implementação desse Sistema de Gestão Acadêmica proporcionará à universi
 ![Modelagem de Banco de Dados Completa](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/bdca5f3b-d7f6-404f-bd6b-17817c678c04)
 
 ## 🔢 Modelagem Lógica
+![Modelagem Lógica](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/2bb4894c-f724-4ee4-8f98-42241c63d215)
 
 ## ⚙️ Modelagem Física
 
