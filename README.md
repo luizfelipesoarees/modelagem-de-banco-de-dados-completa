@@ -108,7 +108,20 @@ Foi utilizado o seguinte código para a implementação desse cenário no SQL Se
   );
 
 ## 💻 Dados
+Aqui segue a iserção de dados de todas as tabelas:
+> Estudante:
 
+![tabela_estudante](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/8f7bf0a6-57db-44d5-9409-a55d5978804b)
+> Email:
+> EstudanteCurso:
+> Curso:
+> Email_Cord:
+> Disciplina:
+> EstudanteDisciplina:
+> NotaDisciplina
+> Professor
+> Disciplinas_leciona
+> Nota
 ## CRUD
 
 ## Relatórios
