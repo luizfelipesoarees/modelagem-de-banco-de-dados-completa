@@ -122,10 +122,11 @@ Aqui segue a iserção de dados de todas as tabelas:
 > EstudanteCurso:![insert_tabela_estudantecurso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/9ab87aa9-96c8-465e-b13c-8d473b347095)
 >
 ![_tabela_estudantecurso](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/468f5cc2-2891-4a8f-90e0-79e18a96485d)
-> Disciplina: 
-
-> Email_Cord:
+> Disciplina: ![insert_tabela_disciplina](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/71f36538-6dd2-48ce-aa9c-0afed7104c21)
+> 
+![tabela_disciplina](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/ef0ef93d-3488-435a-bd56-023c92812b1f)
 > EstudanteDisciplina:
+> Email_Cord:
 > NotaDisciplina
 > Professor
 > Disciplinas_leciona
