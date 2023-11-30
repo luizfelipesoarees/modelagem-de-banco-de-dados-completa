@@ -144,10 +144,10 @@ Aqui segue a iserção de dados de todas as tabelas:
 > 
 ![tabela_notadisc](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/22e61714-d35e-4eaf-8cd0-b4ef86496fa4)
 
-## CRUD
+## 💾 CRUD
 > Inserção de dados: ![inserção](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/20d84825-7579-406a-bb14-6f145bc34919)
-> Leitura de Dados:
-> Deleção:
-> Alteração de Dados:
+> Leitura de Dados: ![leitura](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/110e5624-9ccc-4219-bdfb-8153f87dbc79)
+> Alteração de Dados: ![atualização](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/6303491a-84c4-4c38-bbcd-1fd498c70e75)
+> Deleção: ![deleção](https://github.com/luizfelipesoarees/modelagem-de-banco-de-dados-completa/assets/141787273/f17075d4-4c6a-4870-8876-fef3db2f6dbe)
 
-## Relatórios
+## 📋 Relatórios
